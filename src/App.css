@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -10,6 +11,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    color: #14110f;
 }
 
 a {
