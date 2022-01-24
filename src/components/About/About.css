@@ -24,6 +24,7 @@ section {
 
 .img-box {
     min-height: 25rem;
+    
     box-shadow: 2px 2px 1rem rgba(0, 0, 0, .2);
     overflow: hidden;
 }
@@ -122,6 +123,7 @@ section {
 /* TESTIMONIALS START */
 .testimonials {
     width: 100%;
+    
 }
 
 .testimonials .heading,
@@ -133,7 +135,8 @@ section {
 
 .testimonials-slider {
     margin-top: 4rem;
-    height: 400px;
+    min-height: 400px;
+    padding: 0;
 }
 
 @media screen and (min-width: 1080px) {
@@ -240,5 +243,11 @@ section {
 
 .gallery-item img {
     transition: .5s;
+}
+
+.gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* GALLERY END */

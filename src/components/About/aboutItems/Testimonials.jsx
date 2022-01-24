@@ -39,7 +39,8 @@ const Testimonials = () => {
                     slidesToShow: 1,
                     centerPadding: '100px',
                     slidesToScroll: 1,
-                    fade: true
+                    fade: true,
+                    centerMode: false
                 }
             }
         ]
