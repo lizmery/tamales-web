@@ -24,15 +24,15 @@ section {
 }
 
 .img-box {
-    min-height: 25rem;
+    min-height: 20rem;
     
     box-shadow: 2px 2px 1rem rgba(0, 0, 0, .2);
     overflow: hidden;
 }
 
 .img-box img {
-    height: 100%;
-    object-fit: cover;
+    
+    object-fit: contain;
     transition: transform .5s;
 }
 

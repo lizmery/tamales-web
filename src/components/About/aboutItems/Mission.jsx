@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import cornfield from '../../../assets/cornfield.jpg';
 import tamales from '../../../assets/tamales2.webp';
 import peppers from '../../../assets/peppers2.jpg';
+import cactus from '../../../assets/cactus-red.jpg'
 
 const Mission = () => {
     return (
@@ -25,7 +26,7 @@ const Mission = () => {
                     <img src={peppers} alt="peppers" className="" />
                 </div>
                 <div className="img-box img-center">
-                    <img src={tamales} alt="stack of tamales" className="" />   
+                    <img src={cactus} alt="cactus" className="" />   
                 </div>
                 <div className="img-box img-right">
                     <img src={cornfield} alt="corn field" className="" />

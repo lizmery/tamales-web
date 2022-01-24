@@ -188,4 +188,7 @@
     .nav-btn {
         display: block;
     }
+    .nav-item {
+        padding: 0 1rem;
+    }
 }
