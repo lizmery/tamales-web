@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <header className={click ? "header active" : "header"}>
             <nav className="nav container">
-                {/* Icons made by Freepik from flaticon.com */}
+                {/* Icon made by Freepik from flaticon.com */}
                 <NavLink exact to="/" className="nav-logo">
                     <img src={molcajete} alt="molcajete" className="" />
                 </NavLink>
