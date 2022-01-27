@@ -1,6 +1,6 @@
 # Tamales Website
 
-A mock website that sells tamales. [View Live](https://tamales-web.netlify.app/).
+A mock website that sells tamales. [View Live](https://tamales-web.herokuapp.com/).
 
 ## Technologies Used
 - ReactJS
