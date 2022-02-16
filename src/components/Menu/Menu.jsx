@@ -7,7 +7,8 @@ import './Menu.css'
 const Menu = () => {
     return (
         <div className="menu-container">
-            <h1 className="menu-heading">Our Menu</h1>
+            <h6 className="subheading">What we offer</h6>
+            <h1 className="heading">Our Menu</h1>
             <div className="menu-grid">
                 {menuData.map((item) => (
                     <div className="menu-item" key={item.id}>

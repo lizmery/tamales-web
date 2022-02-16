@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-import { RiArrowLeftSLine, RiArrowRightSLine } from 'react-icons/ri';
+import { RiArrowLeftSFill, RiArrowRightSFill } from 'react-icons/ri';
 import clients from './clientData';
 
 const Testimonials = () => {
@@ -9,7 +9,7 @@ const Testimonials = () => {
     const NextArrow = ({ onClick }) => {
         return (
             <div className="arrow next" onClick={onClick}>
-                <RiArrowRightSLine />
+                <RiArrowRightSFill />
             </div>
         );
     }
@@ -17,7 +17,7 @@ const Testimonials = () => {
     const PrevArrow = ({ onClick }) => {
         return (
             <div className="arrow prev" onClick={onClick}>
-                <RiArrowLeftSLine />
+                <RiArrowLeftSFill />
             </div>
         );
     }
@@ -48,6 +48,7 @@ const Testimonials = () => {
 
     return (
         <section className="testimonials">
+            <h6 className="subheading">What they are saying about us</h6>
             <h1 className="heading">Testimonials</h1>
             <div className="testimonials-slider">
                 <Slider {...settings}>
@@ -58,7 +59,7 @@ const Testimonials = () => {
                                 <p className="client-review">
                                     <span className="accent-text">"</span>{client.review}<span className="accent-text">"</span>
                                 </p>
-                                <h3 className="client-name">- {client.name}</h3>
+                                <h3 className="client-name">{client.name}</h3>
                             </div>
                         </div>
                     ))}

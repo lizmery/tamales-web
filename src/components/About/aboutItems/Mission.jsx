@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import cornfield from '../../../assets/cornfield.jpg';
 import tamales from '../../../assets/tamales2.webp';
 import peppers from '../../../assets/peppers2.jpg';
-import cactus from '../../../assets/cactus-red.jpg'
+import cactus from '../../../assets/cactus-red.jpg';
 
 const Mission = () => {
     return (
         <section className="mission grid">
             <div className="mission-content order-2">
+                <h6 className="subheading">Who we are</h6>
                 <h1 className="mission-heading heading">About Us</h1>
                 <p className="statement">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto necessitatibus

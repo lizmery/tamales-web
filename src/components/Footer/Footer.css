@@ -1,11 +1,12 @@
 .footer {
     width: 100%;
-    background-color: #eaddcf;
+    background-color: var(--green);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem 5rem;
+    margin-top: 0;
 }
 
 .footer-logo img {
@@ -23,19 +24,23 @@
 }
 
 .footer-items a {
-    color: #14342B;
+    color: #D7CFBC;
 }
 
 .footer-items a:hover {
-    color: #AA2034;
+    color: var(--brown);
 }
 
 .social-media {
-    color: #8c7851;
-    font-size: 2rem;
+    color: var(--brown);
+    font-size: 3rem;
+}
+
+.social-media li {
+    transition: .3s ease;
 }
 
 .social-media li:hover {
-    color: #736343;
+    transform: scale(1.2);
     cursor: pointer;
 }

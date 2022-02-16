@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { TiSocialInstagram, TiSocialFacebook, TiSocialTwitter } from 'react-icons/ti'
-import molcajete from '../../assets/molcajete2.png'
+import molcajete from '../../assets/molcajete9.png'
 import './Footer.css'
 
 const Footer = () => {
