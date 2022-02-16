@@ -71,11 +71,12 @@ const Navbar = () => {
                             >
                                 Order Now
                             </Link>
-                        </button> : null }
+                        </button> : null 
+                    }
                 </div>
-                <NavLink exact to="/" className="nav-logo">
+                <Link exact to="/" className="nav-logo">
                     <img src={molcajete} alt="molcajete" className="" />
-                </NavLink>
+                </Link>
                 <button className="nav-btn">
                     <Link
                         exact
