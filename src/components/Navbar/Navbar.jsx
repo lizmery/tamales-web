@@ -6,15 +6,26 @@ import './Navbar.css';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
-    
+    const [scroll, setScroll] = useState(false);
 
     const handleClick = () => setClick(!click);
 
-    
+    const changeNav = () => {
+        if (window.scrollY >= 1) {
+            setScroll(true)
+        } else {
+            setScroll(false)
+        }
+    }
+
+    useEffect(() => {
+        changeNav()
+        window.addEventListener('scroll', changeNav)
+    }, [])
 
     return (
         <header className={click ? "header active" : "header"}>
-            <nav className={click ? "nav container" : "nav container transparent"}>
+            <nav className={scroll || click ? "nav container" : "nav container transparent"}>
                 {/* Icon made by Freepik from flaticon.com */}
                 <div className={click ? "nav-menu active" : "nav-menu"}>
                     <ul className="nav-list">
