@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Menu from './components/Menu/Menu';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
 import './App.css'
 
 const App = () => {
