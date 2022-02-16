@@ -1,4 +1,5 @@
-import tamales from '../../../assets/tamales2.webp';
+import tamales from '../../../assets/tamales4.jpeg';
+
 
 const galleryData = [
     {
@@ -31,16 +32,7 @@ const galleryData = [
         img: tamales,
         alt: 'tamales'
     },
-    {
-        id: 7,
-        img: tamales,
-        alt: 'tamales'
-    },
-    {
-        id: 8,
-        img: tamales,
-        alt: 'tamales'
-    }
+   
 ];
 
 export default galleryData;

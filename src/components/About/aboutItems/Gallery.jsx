@@ -3,8 +3,8 @@ import galleryData from './galleryData';
 
 const Gallery = () => {
     return (
-        <section className="gallery">
-            <h1 className="heading">Gallery</h1>
+        
+            
             <div className="gallery-container grid">
                 {galleryData.map((item) => (
                     <div key={item.id} className="gallery-item">
@@ -12,7 +12,7 @@ const Gallery = () => {
                     </div>
                 ))}
             </div>
-        </section>
+        
     )
 }
 

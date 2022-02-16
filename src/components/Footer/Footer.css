@@ -1,17 +1,19 @@
 .footer {
     width: 100%;
     background-color: var(--green);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 2rem 5rem;
     margin-top: 0;
 }
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
 .footer-logo img {
-    height: 4rem;
-    width: 4rem;
+    height: 6rem;
+    width: 6rem;
 }
 
 .footer-items,
@@ -25,6 +27,7 @@
 
 .footer-items a {
     color: #D7CFBC;
+    letter-spacing: 1px;
 }
 
 .footer-items a:hover {
@@ -43,4 +46,15 @@
 .social-media li:hover {
     transform: scale(1.2);
     cursor: pointer;
+}
+
+.line {
+    opacity: .3;
+}
+
+.copyright {
+    color: var(--brown);
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-top: 2rem;
 }
